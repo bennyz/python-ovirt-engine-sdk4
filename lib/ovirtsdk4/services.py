@@ -97,7 +97,7 @@ class AffinityGroupService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/clusters/000-000/affinitygroups/123-456
+            DELETE /ovirt-engine/api/clusters/000-000/affinitygroups/123-456
 
 
 
@@ -383,7 +383,7 @@ class AffinityGroupHostLabelsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/affinitygroups/456/hostlabels
+            POST /ovirt-engine/api/clusters/123/affinitygroups/456/hostlabels
 
         With the following body:
 
@@ -510,7 +510,7 @@ class AffinityGroupHostsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/affinitygroups/456/hosts
+            POST /ovirt-engine/api/clusters/123/affinitygroups/456/hosts
 
         With the following body:
 
@@ -759,7 +759,7 @@ class AffinityGroupVmLabelsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/affinitygroups/456/vmlabels
+            POST /ovirt-engine/api/clusters/123/affinitygroups/456/vmlabels
 
         With the following body:
 
@@ -886,7 +886,7 @@ class AffinityGroupVmsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/affinitygroups/456/vms
+            POST /ovirt-engine/api/clusters/123/affinitygroups/456/vms
 
         With the following body:
 
@@ -1004,7 +1004,7 @@ class AffinityGroupsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/000-000/affinitygroups
+            POST /ovirt-engine/api/clusters/000-000/affinitygroups
 
         And use the following example in its body:
 
@@ -2316,7 +2316,7 @@ class AssignedPermissionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/permissions
+            POST /ovirt-engine/api/vms/123/permissions
 
         With a request body like this:
 
@@ -2334,7 +2334,7 @@ class AssignedPermissionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/permissions
+            POST /ovirt-engine/api/permissions
 
         With a request body like this:
 
@@ -2354,7 +2354,7 @@ class AssignedPermissionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/permissions
+            POST /ovirt-engine/api/clusters/123/permissions
 
         With a request body like this:
 
@@ -2537,7 +2537,7 @@ class AssignedPermissionsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/123/permissions
+            GET /ovirt-engine/api/clusters/123/permissions
 
 
         .. code-block:: xml
@@ -2877,7 +2877,7 @@ class AssignedTagService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/tags/456
+            GET /ovirt-engine/api/vms/123/tags/456
 
 
         .. code-block:: xml
@@ -2929,7 +2929,7 @@ class AssignedTagService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123/tags/456
+            DELETE /ovirt-engine/api/vms/123/tags/456
 
 
 
@@ -2998,7 +2998,7 @@ class AssignedTagsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/tags
+            POST /ovirt-engine/api/vms/123/tags
 
         With a request body like this:
 
@@ -3047,7 +3047,7 @@ class AssignedTagsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/tags
+            GET /ovirt-engine/api/vms/123/tags
 
 
         .. code-block:: xml
@@ -3340,7 +3340,7 @@ class AttachedStorageDomainService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/storagedomains/456/activate
+            POST /ovirt-engine/api/datacenters/123/storagedomains/456/activate
 
         The activate action does not take any action specific parameters,
         so the request body should contain an empty `action`:
@@ -3396,7 +3396,7 @@ class AttachedStorageDomainService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/storagedomains/456/deactivate
+            POST /ovirt-engine/api/datacenters/123/storagedomains/456/deactivate
 
         With a request body like this:
 
@@ -3421,7 +3421,7 @@ class AttachedStorageDomainService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/storagedomains/456/deactivate
+            POST /ovirt-engine/api/datacenters/123/storagedomains/456/deactivate
 
         With a request body like this:
 
@@ -4007,7 +4007,7 @@ class BookmarkService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/bookmarks/123
+            GET /ovirt-engine/api/bookmarks/123
 
 
         .. code-block:: xml
@@ -4059,7 +4059,7 @@ class BookmarkService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/bookmarks/123
+            DELETE /ovirt-engine/api/bookmarks/123
 
 
 
@@ -4108,7 +4108,7 @@ class BookmarkService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/bookmarks/123
+            PUT /ovirt-engine/api/bookmarks/123
 
         With the request body:
 
@@ -4188,7 +4188,7 @@ class BookmarksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/bookmarks
+            POST /ovirt-engine/api/bookmarks
 
 
         .. code-block:: xml
@@ -4238,7 +4238,7 @@ class BookmarksService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/bookmarks
+            GET /ovirt-engine/api/bookmarks
 
 
         .. code-block:: xml
@@ -4347,7 +4347,7 @@ class ClusterService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/123
+            GET /ovirt-engine/api/clusters/123
 
 
         .. code-block:: xml
@@ -4466,7 +4466,7 @@ class ClusterService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/refreshglusterhealstatus
+            POST /ovirt-engine/api/clusters/123/refreshglusterhealstatus
 
 
 
@@ -4497,7 +4497,7 @@ class ClusterService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/clusters/00000000-0000-0000-0000-000000000000
+            DELETE /ovirt-engine/api/clusters/00000000-0000-0000-0000-000000000000
 
 
 
@@ -4580,7 +4580,7 @@ class ClusterService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/syncallnetworks
+            POST /ovirt-engine/api/clusters/123/syncallnetworks
 
         With a request body like this:
 
@@ -4635,7 +4635,7 @@ class ClusterService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/clusters/123
+            PUT /ovirt-engine/api/clusters/123
 
         With a request body like this:
 
@@ -4687,7 +4687,7 @@ class ClusterService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/upgrade
+            POST /ovirt-engine/api/clusters/123/upgrade
 
         With a request body like this to mark the cluster for upgrade:
 
@@ -4868,7 +4868,7 @@ class ClusterEnabledFeatureService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/123/enabledfeatures/456
+            GET /ovirt-engine/api/clusters/123/enabledfeatures/456
 
         That will return a <<types/cluster_feature, ClusterFeature>> object containing the name:
 
@@ -4919,7 +4919,7 @@ class ClusterEnabledFeatureService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/clusters/123/enabledfeatures/456
+            DELETE /ovirt-engine/api/clusters/123/enabledfeatures/456
 
 
 
@@ -4973,7 +4973,7 @@ class ClusterEnabledFeaturesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/enabledfeatures
+            POST /ovirt-engine/api/clusters/123/enabledfeatures
 
         The request body should look like this:
 
@@ -5011,7 +5011,7 @@ class ClusterEnabledFeaturesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/123/enabledfeatures
+            GET /ovirt-engine/api/clusters/123/enabledfeatures
 
         This will return a list of features:
 
@@ -5159,7 +5159,7 @@ class ClusterFeatureService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusterlevels/4.1/clusterfeatures/456
+            GET /ovirt-engine/api/clusterlevels/4.1/clusterfeatures/456
 
         That will return a <<types/cluster_feature, ClusterFeature>> object containing the name:
 
@@ -5232,7 +5232,7 @@ class ClusterFeaturesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusterlevels/4.1/clusterfeatures
+            GET /ovirt-engine/api/clusterlevels/4.1/clusterfeatures
 
         This will return a list of cluster features supported by the cluster level:
 
@@ -5323,7 +5323,7 @@ class ClusterLevelService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusterlevels/3.6
+            GET /ovirt-engine/api/clusterlevels/3.6
 
         That will return a <<types/cluster_level, ClusterLevel>> object containing the supported CPU types, and other
         information which describes the cluster level:
@@ -5424,7 +5424,7 @@ class ClusterLevelsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusterlevels
+            GET /ovirt-engine/api/clusterlevels
 
         This will return a list of available cluster levels.
 
@@ -5627,7 +5627,7 @@ class ClusterNetworksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/networks
+            POST /ovirt-engine/api/clusters/123/networks
 
         Use the following example in its body:
 
@@ -5754,7 +5754,7 @@ class ClustersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters
+            POST /ovirt-engine/api/clusters
 
         With a request body like this:
 
@@ -5775,7 +5775,7 @@ class ClustersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters
+            POST /ovirt-engine/api/clusters
 
         With a request body containing a reference to the desired provider:
 
@@ -6218,7 +6218,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/cleanfinishedtasks
+            POST /ovirt-engine/api/datacenters/123/cleanfinishedtasks
 
         With a request body like this:
 
@@ -6272,7 +6272,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/datacenters/123
+            GET /ovirt-engine/api/datacenters/123
 
 
         .. code-block:: xml
@@ -6352,7 +6352,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/datacenters/123
+            DELETE /ovirt-engine/api/datacenters/123
 
         Without any special parameters, the storage domains attached to the data center are detached and then removed
         from the storage. If something fails when performing this operation, for example if there is no host available to
@@ -6416,7 +6416,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/setmaster
+            POST /ovirt-engine/api/datacenters/123/setmaster
 
         With a request body like this:
 
@@ -6478,7 +6478,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/datacenters/123
+            PUT /ovirt-engine/api/datacenters/123
 
         With a request body like this:
 
@@ -6569,7 +6569,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/storagedomains
+            POST /ovirt-engine/api/datacenters/123/storagedomains
 
         With a request body like this:
 
@@ -6585,7 +6585,7 @@ class DataCenterService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/datacenters/123/storagedomains/123
+            DELETE /ovirt-engine/api/datacenters/123/storagedomains/123
 
 
         """
@@ -6769,7 +6769,7 @@ class DataCenterNetworksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/networks
+            POST /ovirt-engine/api/datacenters/123/networks
 
         Use the following example in its body:
 
@@ -6898,7 +6898,7 @@ class DataCentersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters
+            POST /ovirt-engine/api/datacenters
 
         With a request body like this:
 
@@ -6952,7 +6952,7 @@ class DataCentersService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/datacenters
+            GET /ovirt-engine/api/datacenters
 
         The above request performed with `curl`:
         [source,bash]
@@ -7101,7 +7101,7 @@ class DiskAttachmentService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/diskattachments/456
+            GET /ovirt-engine/api/vms/123/diskattachments/456
 
 
         .. code-block:: xml
@@ -7158,7 +7158,7 @@ class DiskAttachmentService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123/diskattachments/456?detach_only=true
+            DELETE /ovirt-engine/api/vms/123/diskattachments/456?detach_only=true
 
 
 
@@ -7202,7 +7202,7 @@ class DiskAttachmentService(Service):
 
         .. code-block:: none
 
-        PUT /vms/{vm:id}/disksattachments/{attachment:id}
+            PUT /vms/{vm:id}/disksattachments/{attachment:id}
             <disk_attachment>
               <bootable>true</bootable>
               <interface>ide</interface>
@@ -7297,7 +7297,7 @@ class DiskAttachmentsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/345/diskattachments
+            POST /ovirt-engine/api/vms/345/diskattachments
 
         IMPORTANT: The server accepts requests that don't contain the `active` attribute, but the effect is
         undefined. In some cases the disk will be automatically activated and in other cases it won't. To
@@ -7894,7 +7894,7 @@ class DisksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/disks
+            POST /ovirt-engine/api/disks
 
         With a request body as follows:
 
@@ -7923,7 +7923,7 @@ class DisksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/disks
+            POST /ovirt-engine/api/disks
 
         With a request body as follows:
 
@@ -7976,7 +7976,7 @@ class DisksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/disks
+            POST /ovirt-engine/api/disks
 
         With a request body as follows:
 
@@ -8033,7 +8033,7 @@ class DisksService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/disks
+            GET /ovirt-engine/api/disks
 
         You will get a XML response which will look like this one:
 
@@ -8223,7 +8223,7 @@ class DomainService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/domains/5678
+            GET /ovirt-engine/api/domains/5678
 
         Will return the domain information:
 
@@ -8463,7 +8463,7 @@ class DomainUserService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/domains/5678/users/1234
+            GET /ovirt-engine/api/domains/5678/users/1234
 
         Will return the domain user information:
 
@@ -8603,7 +8603,7 @@ class DomainUsersService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/domains/5678/users
+            GET /ovirt-engine/api/domains/5678/users
 
         Will return the list of users in the domain:
 
@@ -8719,7 +8719,7 @@ class DomainsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/domains
+            GET /ovirt-engine/api/domains
 
         Will return the list of domains:
 
@@ -8818,7 +8818,7 @@ class EventService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events/123
+            GET /ovirt-engine/api/events/123
 
 
         .. code-block:: xml
@@ -8882,7 +8882,7 @@ class EventService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/events/123
+            DELETE /ovirt-engine/api/events/123
 
 
 
@@ -8950,7 +8950,7 @@ class EventSubscriptionService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users/123/vm_console_detected
+            GET /ovirt-engine/api/users/123/vm_console_detected
 
 
         .. code-block:: xml
@@ -8990,7 +8990,7 @@ class EventSubscriptionService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/users/123/vm_console_detected
+            DELETE /ovirt-engine/api/users/123/vm_console_detected
 
 
 
@@ -9061,7 +9061,7 @@ class EventSubscriptionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/users/123/eventsubscriptions
+            POST /ovirt-engine/api/users/123/eventsubscriptions
 
         With a request body like this:
 
@@ -9076,7 +9076,7 @@ class EventSubscriptionsService(Service):
 
         .. code-block:: none
 
-        GET .../api/users/123/eventsubscriptions/host_high_cpu_use
+            GET .../api/users/123/eventsubscriptions/host_high_cpu_use
         Note that no user id is provided in the request body. This is because the user-id (in this case 123)
         is already known to the API from the context. Note also that event-subscription entity contains
         notification-method field, but it is not provided either in the request body. This is because currently
@@ -9120,7 +9120,7 @@ class EventSubscriptionsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users/123/event-subscriptions
+            GET /ovirt-engine/api/users/123/event-subscriptions
 
 
         .. code-block:: xml
@@ -9227,7 +9227,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/events
+            POST /ovirt-engine/api/events
             <event>
               <description>File system /home is full</description>
               <severity>alert</severity>
@@ -9242,7 +9242,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/events
+            POST /ovirt-engine/api/events
             <event>
               <description>File system /home is full</description>
               <severity>alert</severity>
@@ -9286,7 +9286,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events
+            GET /ovirt-engine/api/events
 
         To the above request we get following response:
 
@@ -9328,7 +9328,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events?max=1
+            GET /ovirt-engine/api/events?max=1
 
 
 
@@ -9343,7 +9343,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events?from=123
+            GET /ovirt-engine/api/events?from=123
 
         This parameter is optional, and if not specified then the first event returned will be most recently
         generated.
@@ -9357,7 +9357,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events?search=severity%3Dnormal
+            GET /ovirt-engine/api/events?search=severity%3Dnormal
 
         To the above request we get a list of events which severity is equal to `normal`:
 
@@ -9402,7 +9402,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events?search=sortby%20time%20asc%20page%201
+            GET /ovirt-engine/api/events?search=sortby%20time%20asc%20page%201
 
         Increase the page value to view the next page of results.
 
@@ -9410,7 +9410,7 @@ class EventsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/events?search=sortby%20time%20asc%20page%202
+            GET /ovirt-engine/api/events?search=sortby%20time%20asc%20page%202
 
 
         `case_sensitive`:: Indicates if the search performed using the `search` parameter should be performed taking case into
@@ -9542,7 +9542,7 @@ class ExternalComputeResourceService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/computeresources/234
+            GET /ovirt-engine/api/externalhostproviders/123/computeresources/234
 
         It will return a response like this:
 
@@ -9623,7 +9623,7 @@ class ExternalComputeResourcesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/computeresources
+            GET /ovirt-engine/api/externalhostproviders/123/computeresources
 
         It will return a response like this:
 
@@ -9724,7 +9724,7 @@ class ExternalDiscoveredHostService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/discoveredhosts/234
+            GET /ovirt-engine/api/externalhostproviders/123/discoveredhosts/234
 
         The result will be like this:
 
@@ -9805,7 +9805,7 @@ class ExternalDiscoveredHostsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/discoveredhost
+            GET /ovirt-engine/api/externalhostproviders/123/discoveredhost
 
 
         .. code-block:: xml
@@ -9964,7 +9964,7 @@ class ExternalHostGroupService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/hostgroups/234
+            GET /ovirt-engine/api/externalhostproviders/123/hostgroups/234
 
         It will return a response like this:
 
@@ -10045,7 +10045,7 @@ class ExternalHostGroupsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/hostgroups
+            GET /ovirt-engine/api/externalhostproviders/123/hostgroups
 
         The response will be like this:
 
@@ -10480,7 +10480,7 @@ class ExternalProviderService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
+            POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
 
 
 
@@ -10558,7 +10558,7 @@ class ExternalProviderCertificateService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/certificate/0
+            GET /ovirt-engine/api/externalhostproviders/123/certificate/0
 
         And here is sample response:
 
@@ -10634,7 +10634,7 @@ class ExternalProviderCertificatesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123/certificates
+            GET /ovirt-engine/api/externalhostproviders/123/certificates
 
         And here is sample response:
 
@@ -10731,7 +10731,7 @@ class ExternalTemplateImportsService(Service):
 
         .. code-block:: none
 
-        POST /externaltemplateimports
+            POST /externaltemplateimports
 
         With request body of type <<types/external_template_import,ExternalTemplateImport>>, for example:
 
@@ -10798,7 +10798,7 @@ class ExternalVmImportsService(Service):
 
         .. code-block:: none
 
-        POST /externalvmimports
+            POST /externalvmimports
 
         With request body of type <<types/external_vm_import,ExternalVmImport>>, for example:
 
@@ -10869,7 +10869,7 @@ class FenceAgentService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123/fenceagents/0
+            GET /ovirt-engine/api/hosts/123/fenceagents/0
 
         And here is sample response:
 
@@ -10926,7 +10926,7 @@ class FenceAgentService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/hosts/123/fenceagents/0
+            DELETE /ovirt-engine/api/hosts/123/fenceagents/0
 
 
 
@@ -11037,7 +11037,7 @@ class FenceAgentsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/fenceagents
+            POST /ovirt-engine/api/hosts/123/fenceagents
         You should consult the /usr/sbin/fence_<agent_name> manual page for
         the legal parameters to [name1=value1, name2=value2,...] in the options field.
         If any parameter in options appears by name that means that it is mandatory.
@@ -11120,7 +11120,7 @@ class FenceAgentsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123/fenceagents
+            GET /ovirt-engine/api/hosts/123/fenceagents
 
         And here is sample response:
 
@@ -11616,7 +11616,7 @@ class GlusterBricksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/activate
+            POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/activate
 
         With a request body like this:
 
@@ -11684,7 +11684,7 @@ class GlusterBricksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks
+            POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks
 
         With a request body like this:
 
@@ -11745,7 +11745,7 @@ class GlusterBricksService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks
+            GET /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks
 
         Provides an output as below:
 
@@ -11820,7 +11820,7 @@ class GlusterBricksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/migrate
+            POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/migrate
 
         With a request body like this:
 
@@ -11890,7 +11890,7 @@ class GlusterBricksService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks
+            DELETE /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks
 
         With a request body like this:
 
@@ -11963,7 +11963,7 @@ class GlusterBricksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/stopmigrate
+            POST /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/stopmigrate
 
         With a request body like this:
 
@@ -12360,7 +12360,7 @@ class GlusterVolumesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/glustervolumes
+            POST /ovirt-engine/api/clusters/123/glustervolumes
 
         With the following request body:
 
@@ -12430,7 +12430,7 @@ class GlusterVolumesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/456/glustervolumes
+            GET /ovirt-engine/api/clusters/456/glustervolumes
 
         The order of the returned list of volumes isn't guaranteed.
 
@@ -12531,7 +12531,7 @@ class GroupService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/groups/123
+            GET /ovirt-engine/api/groups/123
 
         Will return the group information:
 
@@ -12590,7 +12590,7 @@ class GroupService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/groups/123
+            DELETE /ovirt-engine/api/groups/123
 
 
 
@@ -12694,7 +12694,7 @@ class GroupsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/groups
+            POST /ovirt-engine/api/groups
 
         With a request body like this:
 
@@ -12748,7 +12748,7 @@ class GroupsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/groups
+            GET /ovirt-engine/api/groups
 
         Will return the list of groups:
 
@@ -12865,7 +12865,7 @@ class HostDeviceService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123/devices/456
+            GET /ovirt-engine/api/hosts/123/devices/456
 
 
         .. code-block:: xml
@@ -13160,7 +13160,7 @@ class HostNicsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123/nics?all_content=true
+            GET /ovirt-engine/api/hosts/123/nics?all_content=true
 
         NOTE: These attributes are not included by default because retrieving them impacts performance. They are
         seldom used and require additional queries to the database. Use this parameter with caution and only when
@@ -13322,7 +13322,7 @@ class HostStorageService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123/storage
+            GET /ovirt-engine/api/hosts/123/storage
 
         The XML response you get will be like this one:
 
@@ -13470,7 +13470,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts
+            POST /ovirt-engine/api/hosts
 
         With the following request body:
 
@@ -13492,7 +13492,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts?deploy_hosted_engine=true
+            POST /ovirt-engine/api/hosts?deploy_hosted_engine=true
 
         If the cluster has a default external network provider that is supported for automatic deployment,
         the external network provider is deployed when adding the host.
@@ -13504,7 +13504,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts
+            POST /ovirt-engine/api/hosts
 
         With a request body that contains a reference to the desired provider in the
         `external_network_provider_configuration`:
@@ -13584,7 +13584,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts
+            GET /ovirt-engine/api/hosts
 
         The response body will be similar to this:
 
@@ -13624,7 +13624,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts?all_content=true
+            GET /ovirt-engine/api/hosts?all_content=true
 
         NOTE: These attributes are not included by default because retrieving them impacts performance. They are
         seldom used and require additional queries to the database. Use this parameter with caution and only when
@@ -13638,7 +13638,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts?migration_target_of=123,456
+            GET /ovirt-engine/api/hosts?migration_target_of=123,456
 
 
         `check_vms_in_affinity_closure`:: This parameter can be used with `migration_target_of`
@@ -13652,7 +13652,7 @@ class HostsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts?migration_target_of=123,456&check_vms_in_affinity_closure=true
+            GET /ovirt-engine/api/hosts?migration_target_of=123,456&check_vms_in_affinity_closure=true
 
 
         `follow`:: Indicates which inner links should be _followed_. The objects referenced by these links will be fetched as part
@@ -13860,7 +13860,7 @@ class IconService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/icons/123
+            GET /ovirt-engine/api/icons/123
 
         You will get a XML response like this one:
 
@@ -13935,7 +13935,7 @@ class IconsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/icons
+            GET /ovirt-engine/api/icons
 
         You will get a XML response which is similar to this one:
 
@@ -14248,7 +14248,7 @@ class ImageTransferService(Service):
 
         .. code-block:: none
 
-    POST /ovirt-engine/api/disks
+        POST /ovirt-engine/api/disks
 
     With a request body as follows:
 
@@ -14270,7 +14270,7 @@ class ImageTransferService(Service):
 
         .. code-block:: none
 
-    POST /ovirt-engine/api/imagetransfers
+        POST /ovirt-engine/api/imagetransfers
 
     With a request body as follows:
 
@@ -14315,7 +14315,7 @@ class ImageTransferService(Service):
 
         .. code-block:: none
 
-    POST /ovirt-engine/api/imagetransfers/123/finalize
+        POST /ovirt-engine/api/imagetransfers/123/finalize
 
     With a request body as follows:
 
@@ -14539,7 +14539,7 @@ class ImageTransfersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/imagetransfers
+            POST /ovirt-engine/api/imagetransfers
 
         With a request body like this:
 
@@ -14558,7 +14558,7 @@ class ImageTransfersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/imagetransfers
+            POST /ovirt-engine/api/imagetransfers
 
         With a request body like this:
 
@@ -14848,7 +14848,7 @@ class InstanceTypeService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/instancetypes/123
+            GET /ovirt-engine/api/instancetypes/123
 
 
 
@@ -14893,7 +14893,7 @@ class InstanceTypeService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/instancetypes/123
+            DELETE /ovirt-engine/api/instancetypes/123
 
 
 
@@ -14945,7 +14945,7 @@ class InstanceTypeService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/instancetypes/123
+            PUT /ovirt-engine/api/instancetypes/123
 
         For example, to update the memory of instance type `123` to 1 GiB and set the cpu topology
         to 2 sockets and 1 core, send a request like this:
@@ -15719,7 +15719,7 @@ class InstanceTypesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/instancetypes
+            POST /ovirt-engine/api/instancetypes
 
         With a request body like this:
 
@@ -15950,7 +15950,7 @@ class IscsiBondService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/datacenters/123/iscsibonds/456
+            DELETE /ovirt-engine/api/datacenters/123/iscsibonds/456
 
 
 
@@ -16000,7 +16000,7 @@ class IscsiBondService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/datacenters/123/iscsibonds/1234
+            PUT /ovirt-engine/api/datacenters/123/iscsibonds/1234
 
         The request body should look like this:
 
@@ -16097,7 +16097,7 @@ class IscsiBondsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/iscsibonds
+            POST /ovirt-engine/api/datacenters/123/iscsibonds
 
         The request body should look like this:
 
@@ -16221,7 +16221,7 @@ class JobService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/jobs/clear
+            POST /ovirt-engine/api/jobs/clear
 
         With the following request body:
 
@@ -16276,7 +16276,7 @@ class JobService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/jobs/end
+            POST /ovirt-engine/api/jobs/end
 
         With the following request body:
 
@@ -16340,7 +16340,7 @@ class JobService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/jobs/123
+            GET /ovirt-engine/api/jobs/123
 
         You will receive response in XML like this one:
 
@@ -16438,7 +16438,7 @@ class JobsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/jobs
+            POST /ovirt-engine/api/jobs
 
         With the following request body:
 
@@ -16509,7 +16509,7 @@ class JobsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/jobs
+            GET /ovirt-engine/api/jobs
 
         You will receive response in XML like this one:
 
@@ -16632,7 +16632,7 @@ class KatelloErrataService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/katelloerrata
+            GET /ovirt-engine/api/katelloerrata
 
         You will receive response in XML like this one:
 
@@ -16740,7 +16740,7 @@ class KatelloErratumService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/katelloerrata/123
+            GET /ovirt-engine/api/katelloerrata/123
 
         You will receive response in XML like this one:
 
@@ -16914,7 +16914,7 @@ class MacPoolService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/macpools/123
+            DELETE /ovirt-engine/api/macpools/123
 
 
 
@@ -16964,7 +16964,7 @@ class MacPoolService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/macpools/123
+            PUT /ovirt-engine/api/macpools/123
 
         With a request body like this:
 
@@ -17056,7 +17056,7 @@ class MacPoolsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/macpools
+            POST /ovirt-engine/api/macpools
 
         With a request body like this:
 
@@ -17268,7 +17268,7 @@ class NetworkService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/networks/123
+            GET /ovirt-engine/api/networks/123
 
         Will respond:
 
@@ -17330,7 +17330,7 @@ class NetworkService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/networks/123
+            DELETE /ovirt-engine/api/networks/123
 
         Each network is bound exactly to one data center. So if we disassociate network with data center it has the same
         result as if we would just remove that network. However it might be more specific to say we're removing network
@@ -17341,7 +17341,7 @@ class NetworkService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/datacenters/123/networks/456
+            DELETE /ovirt-engine/api/datacenters/123/networks/456
 
         NOTE: To remove an external logical network, the network has to be removed directly from its provider by
         https://developer.openstack.org/api-ref/network[OpenStack Networking API].
@@ -17396,7 +17396,7 @@ class NetworkService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/networks/123
+            PUT /ovirt-engine/api/networks/123
 
         With a request body like this:
 
@@ -17414,7 +17414,7 @@ class NetworkService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/datacenters/123/networks/456
+            PUT /ovirt-engine/api/datacenters/123/networks/456
 
         With a request body like this:
 
@@ -17807,7 +17807,7 @@ class NetworkFiltersService(Service):
 
         .. code-block:: none
 
-    GET http://localhost:8080/ovirt-engine/api/clusters/{cluster:id}/networkfilters
+        GET http://localhost:8080/ovirt-engine/api/clusters/{cluster:id}/networkfilters
 
     Output:
 
@@ -17966,7 +17966,7 @@ class NetworkLabelService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/networks/123/networklabels/exemplary
+            DELETE /ovirt-engine/api/networks/123/networklabels/exemplary
 
 
 
@@ -18038,7 +18038,7 @@ class NetworkLabelsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/networks/123/networklabels
+            POST /ovirt-engine/api/networks/123/networklabels
 
         With a request body like this:
 
@@ -18157,7 +18157,7 @@ class NetworksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/networks
+            POST /ovirt-engine/api/networks
 
         With a request body like this:
 
@@ -18174,7 +18174,7 @@ class NetworksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/networks
+            POST /ovirt-engine/api/datacenters/123/networks
 
         With a request body like this:
 
@@ -18191,7 +18191,7 @@ class NetworksService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/networks
+            POST /ovirt-engine/api/networks
 
 
         .. code-block:: xml
@@ -18235,7 +18235,7 @@ class NetworksService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/networks
+            GET /ovirt-engine/api/networks
 
         Will respond:
 
@@ -18391,7 +18391,7 @@ class NicNetworkFilterParameterService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/789/nics/456/networkfilterparameters/123
+            DELETE /ovirt-engine/api/vms/789/nics/456/networkfilterparameters/123
 
 
 
@@ -18423,7 +18423,7 @@ class NicNetworkFilterParameterService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vms/789/nics/456/networkfilterparameters/123
+            PUT /ovirt-engine/api/vms/789/nics/456/networkfilterparameters/123
 
         With a request body like this:
 
@@ -18496,7 +18496,7 @@ class NicNetworkFilterParametersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/789/nics/456/networkfilterparameters
+            POST /ovirt-engine/api/vms/789/nics/456/networkfilterparameters
 
         With a request body like this:
 
@@ -18654,7 +18654,7 @@ class OpenstackImageService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/openstackimageproviders/123/images/456/import
+            POST /ovirt-engine/api/openstackimageproviders/123/images/456/import
 
         With a request body like this:
 
@@ -18846,7 +18846,7 @@ class OpenstackImageProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
+            POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
 
 
 
@@ -19265,7 +19265,7 @@ class OpenstackNetworkProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/openstacknetworkproviders/1234
+            GET /ovirt-engine/api/openstacknetworkproviders/1234
 
 
 
@@ -19335,7 +19335,7 @@ class OpenstackNetworkProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/openstacknetworkproviders/1234
+            DELETE /ovirt-engine/api/openstacknetworkproviders/1234
 
 
 
@@ -19383,7 +19383,7 @@ class OpenstackNetworkProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
+            POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
 
 
 
@@ -19432,7 +19432,7 @@ class OpenstackNetworkProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/openstacknetworkproviders/1234
+            PUT /ovirt-engine/api/openstacknetworkproviders/1234
 
         With a request body like this:
 
@@ -20230,7 +20230,7 @@ class OpenstackVolumeProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
+            POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
 
 
 
@@ -20361,7 +20361,7 @@ class OpenstackVolumeProvidersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/openstackvolumeproviders
+            POST /ovirt-engine/api/openstackvolumeproviders
 
         With a request body like this:
 
@@ -20840,7 +20840,7 @@ class PermitService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/roles/123/permits/456
+            GET /ovirt-engine/api/roles/123/permits/456
 
 
         .. code-block:: xml
@@ -20892,7 +20892,7 @@ class PermitService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/roles/123/permits/456
+            DELETE /ovirt-engine/api/roles/123/permits/456
 
 
 
@@ -20961,7 +20961,7 @@ class PermitsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/roles/123/permits
+            POST /ovirt-engine/api/roles/123/permits
 
         With a request body like this:
 
@@ -21010,7 +21010,7 @@ class PermitsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/roles/123/permits
+            GET /ovirt-engine/api/roles/123/permits
 
 
         .. code-block:: xml
@@ -21108,7 +21108,7 @@ class QosService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/datacenters/123/qoss/123
+            GET /ovirt-engine/api/datacenters/123/qoss/123
 
         You will get response like this one below:
 
@@ -21164,7 +21164,7 @@ class QosService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/datacenters/123/qoss/123
+            DELETE /ovirt-engine/api/datacenters/123/qoss/123
 
 
 
@@ -21212,7 +21212,7 @@ class QosService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/datacenters/123/qoss/123
+            PUT /ovirt-engine/api/datacenters/123/qoss/123
 
         For example with curl:
 
@@ -21302,7 +21302,7 @@ class QossService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/qoss
+            POST /ovirt-engine/api/datacenters/123/qoss
 
         The response will look as follows:
 
@@ -21355,7 +21355,7 @@ class QossService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/datacenter/123/qoss
+            GET /ovirt-engine/api/datacenter/123/qoss
 
         You will get response which will look like this:
 
@@ -21451,7 +21451,7 @@ class QuotaService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/datacenters/123/quotas/456
+            GET /ovirt-engine/api/datacenters/123/quotas/456
 
 
         .. code-block:: xml
@@ -21507,7 +21507,7 @@ class QuotaService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/datacenters/123-456/quotas/654-321
+            DELETE /ovirt-engine/api/datacenters/123-456/quotas/654-321
         -0472718ab224 HTTP/1.1
         Accept: application/xml
         Content-type: application/xml
@@ -21559,7 +21559,7 @@ class QuotaService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/datacenters/123/quotas/456
+            PUT /ovirt-engine/api/datacenters/123/quotas/456
 
 
         .. code-block:: xml
@@ -21937,7 +21937,7 @@ class QuotaStorageLimitsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/quotas/456/quotastoragelimits
+            POST /ovirt-engine/api/datacenters/123/quotas/456/quotastoragelimits
 
         With a request body like this:
 
@@ -21953,7 +21953,7 @@ class QuotaStorageLimitsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/quotas/456/quotastoragelimits
+            POST /ovirt-engine/api/datacenters/123/quotas/456/quotastoragelimits
 
         With a request body like this:
 
@@ -22071,7 +22071,7 @@ class QuotasService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/datacenters/123/quotas
+            POST /ovirt-engine/api/datacenters/123/quotas
 
 
         .. code-block:: xml
@@ -22185,7 +22185,7 @@ class RoleService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/roles/123
+            GET /ovirt-engine/api/roles/123
 
         You will receive XML response like this one:
 
@@ -22241,7 +22241,7 @@ class RoleService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/roles/{role_id}
+            DELETE /ovirt-engine/api/roles/{role_id}
 
 
 
@@ -22292,7 +22292,7 @@ class RoleService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/roles/123
+            PUT /ovirt-engine/api/roles/123
 
         With a request body like this:
 
@@ -22385,7 +22385,7 @@ class RolesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/roles
+            POST /ovirt-engine/api/roles
 
         With a request body like this:
 
@@ -22440,7 +22440,7 @@ class RolesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/roles
+            GET /ovirt-engine/api/roles
 
         You will receive response in XML like this one:
 
@@ -23027,7 +23027,7 @@ class SnapshotService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/snapshots/456?all_content=true
+            GET /ovirt-engine/api/vms/123/snapshots/456?all_content=true
 
 
         `headers`:: Additional HTTP headers.
@@ -23077,7 +23077,7 @@ class SnapshotService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/snapshots/456/restore
+            POST /ovirt-engine/api/vms/123/snapshots/456/restore
 
         With an empty `action` in the body:
 
@@ -23099,7 +23099,7 @@ class SnapshotService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/snapshots/456/restore
+            POST /ovirt-engine/api/vms/123/snapshots/456/restore
 
         Request body:
 
@@ -23595,7 +23595,7 @@ class SnapshotsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/snapshots
+            POST /ovirt-engine/api/vms/123/snapshots
 
         With a request body like this:
 
@@ -23685,7 +23685,7 @@ class SnapshotsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/snapshots?all_content=true
+            GET /ovirt-engine/api/vms/123/snapshots?all_content=true
 
 
         `follow`:: Indicates which inner links should be _followed_. The objects referenced by these links will be fetched as part
@@ -23912,7 +23912,7 @@ class SshPublicKeysService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users/123/sshpublickeys
+            GET /ovirt-engine/api/users/123/sshpublickeys
 
         The result will be the following XML document:
 
@@ -24076,7 +24076,7 @@ class StatisticsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/statistics
+            GET /ovirt-engine/api/vms/123/statistics
 
         The result will be like this:
 
@@ -24105,7 +24105,7 @@ class StatisticsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/statistics/456
+            GET /ovirt-engine/api/vms/123/statistics/456
 
         Outputs:
 
@@ -24210,7 +24210,7 @@ class StepService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/jobs/123/steps/456/end
+            POST /ovirt-engine/api/jobs/123/steps/456/end
 
         With the following request body:
 
@@ -24274,7 +24274,7 @@ class StepService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/jobs/123/steps/456
+            GET /ovirt-engine/api/jobs/123/steps/456
 
         You will receive response in XML like this one:
 
@@ -24368,7 +24368,7 @@ class StepsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/jobs/123/steps
+            POST /ovirt-engine/api/jobs/123/steps
 
         With the following request body:
 
@@ -24438,7 +24438,7 @@ class StepsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/job/123/steps
+            GET /ovirt-engine/api/job/123/steps
 
         You will receive response in XML like this one:
 
@@ -24746,7 +24746,7 @@ class StorageDomainService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storageDomains/123/reduceluns
+            POST /ovirt-engine/api/storageDomains/123/reduceluns
 
         With a request body like this:
 
@@ -24807,7 +24807,7 @@ class StorageDomainService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storageDomains/262b056b-aede-40f1-9666-b883eff59d40/refreshluns
+            POST /ovirt-engine/api/storageDomains/262b056b-aede-40f1-9666-b883eff59d40/refreshluns
 
         With a request body like this:
 
@@ -24887,7 +24887,7 @@ class StorageDomainService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/storageDomains/123?host=myhost
+            DELETE /ovirt-engine/api/storageDomains/123?host=myhost
 
 
         `format`:: Indicates if the actual storage should be formatted, removing all the metadata from the underlying LUN or
@@ -24897,7 +24897,7 @@ class StorageDomainService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/storageDomains/123?format=true
+            DELETE /ovirt-engine/api/storageDomains/123?format=true
 
         This parameter is optional, and the default value is `false`.
 
@@ -24908,7 +24908,7 @@ class StorageDomainService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/storageDomains/123?destroy=true
+            DELETE /ovirt-engine/api/storageDomains/123?destroy=true
 
         This parameter is optional, and the default value is `false`.
         When the value of `destroy` is `true` the `host` parameter will be ignored.
@@ -24972,7 +24972,7 @@ class StorageDomainService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/storageDomains/123
+            PUT /ovirt-engine/api/storageDomains/123
 
         With a request body as follows:
 
@@ -25740,7 +25740,7 @@ class StorageDomainDisksService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/storagedomains/123/disks?unregistered=true
+            GET /ovirt-engine/api/storagedomains/123/disks?unregistered=true
 
         The default value of the unregistered flag is `false`.
         The request only applies to storage domains that are attached.
@@ -26053,7 +26053,7 @@ class StorageDomainTemplateService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storagedomains/123/templates/456/import
+            POST /ovirt-engine/api/storagedomains/123/templates/456/import
 
         With the following request body:
 
@@ -26287,7 +26287,7 @@ class StorageDomainTemplatesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/storagedomains/123/templates?unregistered=true
+            GET /ovirt-engine/api/storagedomains/123/templates?unregistered=true
 
         The default value of the unregisterd flag is `false`.
         The request only apply to storage domains that are attached.
@@ -26409,7 +26409,7 @@ class StorageDomainVmService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storagedomains/123/vms/456/import
+            POST /ovirt-engine/api/storagedomains/123/vms/456/import
 
         With a request body like this:
 
@@ -26612,7 +26612,7 @@ class StorageDomainVmService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/storagedomains/123/vms/456
+            DELETE /ovirt-engine/api/storagedomains/123/vms/456
 
 
 
@@ -26815,7 +26815,7 @@ class StorageDomainVmsService(Service):
 
         .. code-block:: none
 
-    GET /ovirt-engine/api/storagedomains/123/vms
+        GET /ovirt-engine/api/storagedomains/123/vms
 
     This will return the following response body:
 
@@ -26871,7 +26871,7 @@ class StorageDomainVmsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/storagedomains/123/vms?unregistered=true
+            GET /ovirt-engine/api/storagedomains/123/vms?unregistered=true
 
         The default value of the unregisterd flag is `false`.
         The request only apply to storage domains that are attached.
@@ -26961,7 +26961,7 @@ class StorageDomainsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storageDomains
+            POST /ovirt-engine/api/storageDomains
 
         With a request body like this:
 
@@ -27512,7 +27512,7 @@ class StorageServerConnectionService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/storageconnections/123?host=456
+            DELETE /ovirt-engine/api/storageconnections/123?host=456
 
 
         `async_`:: Indicates if the remove should be performed asynchronously.
@@ -27563,7 +27563,7 @@ class StorageServerConnectionService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/storageconnections/123
+            PUT /ovirt-engine/api/storageconnections/123
 
         With a request body like this:
 
@@ -27580,7 +27580,7 @@ class StorageServerConnectionService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/storageconnections/123
+            PUT /ovirt-engine/api/storageconnections/123
 
         With a request body like this:
 
@@ -27761,7 +27761,7 @@ class StorageServerConnectionExtensionService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/hosts/123/storageconnectionextensions/456
+            PUT /ovirt-engine/api/hosts/123/storageconnectionextensions/456
 
         With a request body like this:
 
@@ -27833,7 +27833,7 @@ class StorageServerConnectionExtensionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/storageconnectionextensions
+            POST /ovirt-engine/api/hosts/123/storageconnectionextensions
 
         With a request body like this:
 
@@ -27951,7 +27951,7 @@ class StorageServerConnectionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storageconnections
+            POST /ovirt-engine/api/storageconnections
 
         With a request body like this:
 
@@ -28230,7 +28230,7 @@ class SystemService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api
+            GET /ovirt-engine/api
 
         We get following response:
 
@@ -28779,7 +28779,7 @@ class SystemOptionService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/options/MigrationPoliciesSupported
+            GET /ovirt-engine/api/options/MigrationPoliciesSupported
 
         The response to that request will be the following:
 
@@ -28831,7 +28831,7 @@ class SystemOptionService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/options/MigrationPoliciesSupported?version=4.2
+            GET /ovirt-engine/api/options/MigrationPoliciesSupported?version=4.2
 
         The response to that request will be like this:
 
@@ -28941,7 +28941,7 @@ class SystemPermissionsService(AssignedPermissionsService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/permissions
+            POST /ovirt-engine/api/vms/123/permissions
 
         With a request body like this:
 
@@ -28959,7 +28959,7 @@ class SystemPermissionsService(AssignedPermissionsService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/permissions
+            POST /ovirt-engine/api/permissions
 
         With a request body like this:
 
@@ -28979,7 +28979,7 @@ class SystemPermissionsService(AssignedPermissionsService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/123/permissions
+            POST /ovirt-engine/api/clusters/123/permissions
 
         With a request body like this:
 
@@ -29162,7 +29162,7 @@ class SystemPermissionsService(AssignedPermissionsService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/123/permissions
+            GET /ovirt-engine/api/clusters/123/permissions
 
 
         .. code-block:: xml
@@ -29422,7 +29422,7 @@ class TagService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/tags/123
+            GET /ovirt-engine/api/tags/123
 
 
         .. code-block:: xml
@@ -29473,7 +29473,7 @@ class TagService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/tags/123
+            DELETE /ovirt-engine/api/tags/123
 
 
 
@@ -29521,7 +29521,7 @@ class TagService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/tags/123
+            PUT /ovirt-engine/api/tags/123
 
         With request body like:
 
@@ -29610,7 +29610,7 @@ class TagsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/tags
+            POST /ovirt-engine/api/tags
 
         With a request body like this:
 
@@ -29672,7 +29672,7 @@ class TagsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/tags
+            GET /ovirt-engine/api/tags
 
 
         .. code-block:: xml
@@ -29791,7 +29791,7 @@ class TemplateService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/templates/123/export
+            POST /ovirt-engine/api/templates/123/export
 
         With a request body like this:
 
@@ -29891,7 +29891,7 @@ class TemplateService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/templates/123
+            DELETE /ovirt-engine/api/templates/123
 
 
 
@@ -30043,7 +30043,7 @@ class TemplateService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/templates/123
+            PUT /ovirt-engine/api/templates/123
 
         With the following request body:
 
@@ -30201,7 +30201,7 @@ class TemplateCdromService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/templates/123/cdroms/
+            GET /ovirt-engine/api/templates/123/cdroms/
 
 
 
@@ -30564,7 +30564,7 @@ class TemplateDiskAttachmentService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/templates/{template:id}/diskattachments/{attachment:id}?storage_domain=072fbaa1-08f3-4a40-9f34-a5ca22dd1d74
+            DELETE /ovirt-engine/api/templates/{template:id}/diskattachments/{attachment:id}?storage_domain=072fbaa1-08f3-4a40-9f34-a5ca22dd1d74
 
 
 
@@ -31423,7 +31423,7 @@ class TemplatesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/templates
+            POST /ovirt-engine/api/templates
 
         With a request body like this:
 
@@ -31712,7 +31712,7 @@ class TemplatesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/templates
+            GET /ovirt-engine/api/templates
 
         Will return the list of virtual machines and virtual machine templates.
         The order of the returned list of templates is not guaranteed.
@@ -31990,7 +31990,7 @@ class UserService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users/1234
+            GET /ovirt-engine/api/users/1234
 
         Will return the user information:
 
@@ -32055,7 +32055,7 @@ class UserService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/users/1234
+            DELETE /ovirt-engine/api/users/1234
 
 
 
@@ -32104,7 +32104,7 @@ class UserService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/users/123
+            PUT /ovirt-engine/api/users/123
 
         With a request body like this:
 
@@ -32235,7 +32235,7 @@ class UserOptionService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users/123/options/456
+            GET /ovirt-engine/api/users/123/options/456
 
         The result will be the following XML document:
 
@@ -32275,7 +32275,7 @@ class UserOptionService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/users/123/options/456
+            DELETE /ovirt-engine/api/users/123/options/456
 
 
 
@@ -32326,7 +32326,7 @@ class UserOptionsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/users/123/options
+            POST /ovirt-engine/api/users/123/options
 
         Payload:
 
@@ -32366,7 +32366,7 @@ class UserOptionsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users/123/options
+            GET /ovirt-engine/api/users/123/options
 
         The result will be the following XML document:
 
@@ -32443,7 +32443,7 @@ class UsersService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/users
+            POST /ovirt-engine/api/users
 
         With a request body like this:
 
@@ -32504,7 +32504,7 @@ class UsersService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/users
+            GET /ovirt-engine/api/users
 
         Will return the list of users:
 
@@ -32823,7 +32823,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/autopincpuandnumanodes
+            POST /ovirt-engine/api/vms/123/autopincpuandnumanodes
 
         With a request body like this:
 
@@ -32883,7 +32883,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/cancelmigration
+            POST /ovirt-engine/api/vms/123/cancelmigration
 
         The cancel migration action does not take any action specific parameters;
         therefore, the request body should contain an empty `action`:
@@ -33026,7 +33026,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/detach
+            POST /ovirt-engine/api/vms/123/detach
 
         The detach action does not take any action specific parameters; therefore, the request body should contain an
         empty `action`:
@@ -33084,7 +33084,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/export
+            POST /ovirt-engine/api/vms/123/export
 
         With a request body like this:
 
@@ -33105,7 +33105,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/export
+            POST /ovirt-engine/api/vms/123/export
 
         With a request body like this:
 
@@ -33182,7 +33182,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/freezefilesystems
+            POST /ovirt-engine/api/vms/123/freezefilesystems
 
 
         .. code-block:: xml
@@ -33246,7 +33246,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        GET /vms/{vm:id};next_run
+            GET /vms/{vm:id};next_run
 
         Is equivalent to using the value `true`:
 
@@ -33254,7 +33254,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        GET /vms/{vm:id};next_run=true
+            GET /vms/{vm:id};next_run=true
 
 
         `all_content`:: Indicates if all of the attributes of the virtual machine should be included in the response.
@@ -33269,7 +33269,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123?all_content=true
+            GET /ovirt-engine/api/vms/123?all_content=true
 
         NOTE: These attributes are not included by default as they reduce performance. These attributes are seldom used
         and require additional queries to the database. Only use this parameter when required as it will reduce performance.
@@ -33285,7 +33285,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        GET /vms/{vm:id}?all_content=true&ovf_as_ova=true
+            GET /vms/{vm:id}?all_content=true&ovf_as_ova=true
 
 
         `follow`:: Indicates which inner links should be _followed_. The objects referenced by these links will be fetched as part
@@ -33346,7 +33346,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/logon
+            POST /ovirt-engine/api/vms/123/logon
 
         Request body:
 
@@ -33401,7 +33401,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/maintenance
+            POST /ovirt-engine/api/vms/123/maintenance
 
 
         .. code-block:: xml
@@ -33463,7 +33463,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/migrate
+            POST /ovirt-engine/api/vms/123/migrate
 
         To specify a specific host to migrate the virtual machine to:
 
@@ -33558,7 +33558,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/previewsnapshot
+            POST /ovirt-engine/api/vms/123/previewsnapshot
 
         Request body:
 
@@ -33634,7 +33634,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/reboot
+            POST /ovirt-engine/api/vms/123/reboot
 
         The reboot action does not take any action specific parameters; therefore, the request body should contain an
         empty `action`:
@@ -33650,7 +33650,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/reboot
+            POST /ovirt-engine/api/vms/123/reboot
 
 
         .. code-block:: xml
@@ -33711,7 +33711,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123
+            DELETE /ovirt-engine/api/vms/123
 
 
 
@@ -33809,7 +33809,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/reset
+            POST /ovirt-engine/api/vms/123/reset
 
         The reset action does not take any action specific parameters; therefore, the request body should contain an
         empty `action`:
@@ -33865,7 +33865,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/shutdown
+            POST /ovirt-engine/api/vms/123/shutdown
 
         The shutdown action does not take any action specific parameters;
         therefore, the request body should contain an empty `action`:
@@ -33881,7 +33881,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/shutdown
+            POST /ovirt-engine/api/vms/123/shutdown
 
 
         .. code-block:: xml
@@ -33956,7 +33956,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/start
+            POST /ovirt-engine/api/vms/123/start
 
         With a request body:
 
@@ -34071,7 +34071,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/stop
+            POST /ovirt-engine/api/vms/123/stop
 
         The stop action does not take any action specific parameters;
         therefore, the request body should contain an empty `action`:
@@ -34087,7 +34087,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/stop
+            POST /ovirt-engine/api/vms/123/stop
 
 
         .. code-block:: xml
@@ -34152,7 +34152,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/suspend
+            POST /ovirt-engine/api/vms/123/suspend
 
         The suspend action does not take any action specific parameters;
         therefore, the request body should contain an empty `action`:
@@ -34209,7 +34209,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /api/vms/123/thawfilesystems
+            POST /api/vms/123/thawfilesystems
 
 
         .. code-block:: xml
@@ -34262,7 +34262,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/ticket
+            POST /ovirt-engine/api/vms/123/ticket
 
         The client-provided action optionally includes a desired ticket value and/or an expiry time in seconds.
         The response specifies the actual ticket value and expiry used.
@@ -34292,7 +34292,7 @@ class VmService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/graphicsconsoles/456/ticket
+            POST /ovirt-engine/api/vms/123/graphicsconsoles/456/ticket
 
         ====
 
@@ -35122,7 +35122,7 @@ class VmBackupsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/backups
+            POST /ovirt-engine/api/vms/123/backups
 
         With a request body like this:
 
@@ -35339,7 +35339,7 @@ class VmCdromService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vms/123/cdroms/00000000-0000-0000-0000-000000000000
+            PUT /ovirt-engine/api/vms/123/cdroms/00000000-0000-0000-0000-000000000000
 
         The body should contain the new value for the `file` attribute:
 
@@ -35368,7 +35368,7 @@ class VmCdromService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vms/123/cdroms/00000000-0000-0000-0000-000000000000?current=true
+            PUT /ovirt-engine/api/vms/123/cdroms/00000000-0000-0000-0000-000000000000?current=true
 
         With a request body like this:
 
@@ -36322,7 +36322,7 @@ class VmGraphicsConsoleService(Service):
 
         .. code-block:: none
 
-        GET /ovit-engine/api/vms/123/graphicsconsoles/456?current=true
+            GET /ovit-engine/api/vms/123/graphicsconsoles/456?current=true
 
         The default value is `false`.
 
@@ -36404,7 +36404,7 @@ class VmGraphicsConsoleService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/graphicsconsoles/456/remoteviewerconnectionfile
+            POST /ovirt-engine/api/vms/123/graphicsconsoles/456/remoteviewerconnectionfile
 
         The `remoteviewerconnectionfile` action does not take any action specific parameters,
         so the request body should contain an empty `action`:
@@ -36535,7 +36535,7 @@ class VmGraphicsConsoleService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/graphicsconsoles/456/ticket
+            POST /ovirt-engine/api/vms/123/graphicsconsoles/456/ticket
 
         The client-provided action optionally includes a desired ticket value and/or an expiry time in seconds.
         In any case, the response specifies the actual ticket value and expiry used.
@@ -36654,7 +36654,7 @@ class VmGraphicsConsolesService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/graphicsconsoles?current=true
+            GET /ovirt-engine/api/vms/123/graphicsconsoles?current=true
 
         The default value is `false`.
 
@@ -36738,7 +36738,7 @@ class VmHostDeviceService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/hostdevices/456
+            GET /ovirt-engine/api/vms/123/hostdevices/456
 
 
         .. code-block:: xml
@@ -36806,7 +36806,7 @@ class VmHostDeviceService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123/hostdevices/456
+            DELETE /ovirt-engine/api/vms/123/hostdevices/456
 
 
 
@@ -36876,7 +36876,7 @@ class VmHostDevicesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/hostdevices
+            POST /ovirt-engine/api/vms/123/hostdevices
 
         With request body of type <<types/host_device,HostDevice>>, for example
 
@@ -37114,7 +37114,7 @@ class VmNicService(MeasurableService):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123/nics/456
+            DELETE /ovirt-engine/api/vms/123/nics/456
 
         [IMPORTANT]
         ====
@@ -37173,7 +37173,7 @@ class VmNicService(MeasurableService):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vms/123/nics/456
+            PUT /ovirt-engine/api/vms/123/nics/456
 
         With a request body like this:
 
@@ -37283,7 +37283,7 @@ class VmNicsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/nics
+            POST /ovirt-engine/api/vms/123/nics
 
 
         .. code-block:: xml
@@ -37459,7 +37459,7 @@ class VmNumaNodeService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123/numanodes/456
+            DELETE /ovirt-engine/api/vms/123/numanodes/456
 
         NOTE: It's required to remove the numa nodes from the highest index
         first.
@@ -37510,7 +37510,7 @@ class VmNumaNodeService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vms/123/numanodes/456
+            PUT /ovirt-engine/api/vms/123/numanodes/456
 
         The request body should contain the following:
 
@@ -37582,7 +37582,7 @@ class VmNumaNodesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/c7ecd2dc/numanodes
+            POST /ovirt-engine/api/vms/c7ecd2dc/numanodes
         Accept: application/xml
         Content-type: application/xml
 
@@ -37709,7 +37709,7 @@ class VmPoolService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vmpools/123/allocatevm
+            POST /ovirt-engine/api/vmpools/123/allocatevm
 
         The allocate virtual machine action does not take any action specific parameters, so the request body should
         contain an empty `action`:
@@ -37763,7 +37763,7 @@ class VmPoolService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vmpools/123
+            GET /ovirt-engine/api/vmpools/123
 
         You will get a XML response like that one:
 
@@ -37833,7 +37833,7 @@ class VmPoolService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vmpools/123
+            DELETE /ovirt-engine/api/vmpools/123
 
 
 
@@ -37881,7 +37881,7 @@ class VmPoolService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vmpools/123
+            PUT /ovirt-engine/api/vmpools/123
 
         The `name`, `description`, `size`, `prestarted_vms` and `max_user_vms`
         attributes can be updated after the virtual machine pool has been
@@ -37978,7 +37978,7 @@ class VmPoolsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vmpools
+            POST /ovirt-engine/api/vmpools
 
         With the following body:
 
@@ -38032,7 +38032,7 @@ class VmPoolsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vmpools
+            GET /ovirt-engine/api/vmpools
 
         You will receive the following response:
 
@@ -38329,7 +38329,7 @@ class VmSessionsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms/123/sessions
+            GET /ovirt-engine/api/vms/123/sessions
 
         The response body will contain something like this:
 
@@ -38466,7 +38466,7 @@ class VmWatchdogService(Service):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/vms/123/watchdogs/00000000-0000-0000-0000-000000000000
+            DELETE /ovirt-engine/api/vms/123/watchdogs/00000000-0000-0000-0000-000000000000
 
 
 
@@ -38516,7 +38516,7 @@ class VmWatchdogService(Service):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/vms/123/watchdogs
+            PUT /ovirt-engine/api/vms/123/watchdogs
             <watchdog>
               <action>reset</action>
             </watchdog>
@@ -38603,7 +38603,7 @@ class VmWatchdogsService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/vms/123/watchdogs
+            POST /ovirt-engine/api/vms/123/watchdogs
             <watchdog>
               <action>poweroff</action>
               <model>i6300esb</model>
@@ -39077,7 +39077,7 @@ class VmsService(Service):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/vms?all_content=true
+            GET /ovirt-engine/api/vms?all_content=true
 
         NOTE: The reason for not including these attributes is performance: they are seldom used and they require
         additional queries to the database. So try to use the this parameter only when it is really needed.
@@ -39091,7 +39091,7 @@ class VmsService(Service):
 
         .. code-block:: none
 
-        GET /vms?all_content=true&ovf_as_ova=true
+            GET /vms?all_content=true&ovf_as_ova=true
 
 
         `follow`:: Indicates which inner links should be _followed_. The objects referenced by these links will be fetched as part
@@ -39337,7 +39337,7 @@ class VnicProfilesService(Service):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/networks/456/vnicprofiles
+            POST /ovirt-engine/api/networks/456/vnicprofiles
 
         With the following body:
 
@@ -40042,7 +40042,7 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/disks/123/copy
+            POST /ovirt-engine/api/disks/123/copy
 
         With a request body like this:
 
@@ -40077,7 +40077,7 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/storagedomains/123/disks/789
+            POST /ovirt-engine/api/storagedomains/123/disks/789
 
         With a request body like this:
 
@@ -40211,7 +40211,7 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/disks/123?all_content=true
+            GET /ovirt-engine/api/disks/123?all_content=true
 
 
         `follow`:: Indicates which inner links should be _followed_. The objects referenced by these links will be fetched as part
@@ -40261,7 +40261,7 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/disks/123/move
+            POST /ovirt-engine/api/disks/123/move
 
         With the following request body:
 
@@ -40402,7 +40402,7 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/disks/123/refreshlun
+            POST /ovirt-engine/api/disks/123/refreshlun
 
         With the following request body:
 
@@ -40526,7 +40526,7 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/disks/123
+            PUT /ovirt-engine/api/disks/123
 
         With a request body like this:
 
@@ -40571,14 +40571,14 @@ class DiskService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/disks/123/disksnapshots
+            GET /ovirt-engine/api/disks/123/disksnapshots
 
         For example, to retrieve a specific disk snapshot '789' under the disk resource '123':
 
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/disks/123/disksnapshots/789
+            GET /ovirt-engine/api/disks/123/disksnapshots/789
 
 
         """
@@ -40647,7 +40647,7 @@ class EngineKatelloErrataService(KatelloErrataService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/katelloerrata
+            GET /ovirt-engine/api/katelloerrata
 
         You will receive response in XML like this one:
 
@@ -40764,7 +40764,7 @@ class ExternalHostProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/externalhostproviders/123
+            GET /ovirt-engine/api/externalhostproviders/123
 
         The response will be like this:
 
@@ -40882,7 +40882,7 @@ class ExternalHostProviderService(ExternalProviderService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
+            POST /ovirt-engine/api/externalhostproviders/123/testconnectivity
 
 
 
@@ -41033,7 +41033,7 @@ class GlusterBrickService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/234
+            GET /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/234
 
         Which will return a response body like this:
 
@@ -41116,7 +41116,7 @@ class GlusterBrickService(MeasurableService):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/234
+            DELETE /ovirt-engine/api/clusters/567/glustervolumes/123/glusterbricks/234
 
 
 
@@ -41241,7 +41241,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/clusters/456/glustervolumes/123
+            GET /ovirt-engine/api/clusters/456/glustervolumes/123
 
         This GET request will return the following output:
 
@@ -41317,7 +41317,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/getprofilestatistics
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/getprofilestatistics
 
 
 
@@ -41355,7 +41355,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/rebalance
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/rebalance
 
 
 
@@ -41413,7 +41413,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        DELETE /ovirt-engine/api/clusters/456/glustervolumes/123
+            DELETE /ovirt-engine/api/clusters/456/glustervolumes/123
 
 
 
@@ -41462,7 +41462,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/resetalloptions
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/resetalloptions
 
 
 
@@ -41512,7 +41512,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/resetoption
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/resetoption
 
         With the following request body:
 
@@ -41575,7 +41575,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/setoption
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/setoption
 
         With the following request body:
 
@@ -41636,7 +41636,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/start
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/start
 
 
 
@@ -41688,7 +41688,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/startprofile
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/startprofile
 
 
 
@@ -41737,7 +41737,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/stop
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/stop
 
 
 
@@ -41786,7 +41786,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/stopprofile
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/stopprofile
 
 
 
@@ -41834,7 +41834,7 @@ class GlusterVolumeService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/clusters/456/glustervolumes/123/stoprebalance
+            POST /ovirt-engine/api/clusters/456/glustervolumes/123/stoprebalance
 
 
 
@@ -42043,7 +42043,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/commitnetconfig
+            POST /ovirt-engine/api/hosts/123/commitnetconfig
 
         With a request body like this:
 
@@ -42104,7 +42104,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/copyhostnetworks
+            POST /ovirt-engine/api/hosts/123/copyhostnetworks
 
         With a request body like this:
 
@@ -42214,7 +42214,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/discoveriscsi
+            POST /ovirt-engine/api/hosts/123/discoveriscsi
 
         With a request body like this:
 
@@ -42399,7 +42399,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/forceselectspm
+            POST /ovirt-engine/api/hosts/123/forceselectspm
 
         With a request body like this:
 
@@ -42453,7 +42453,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123
+            GET /ovirt-engine/api/hosts/123
 
 
 
@@ -42469,7 +42469,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123?all_content=true
+            GET /ovirt-engine/api/hosts/123?all_content=true
 
         NOTE: These attributes are not included by default because retrieving them impacts performance. They are
         seldom used and require additional queries to the database. Use this parameter with caution and only when
@@ -42655,7 +42655,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/iscsidiscover
+            POST /ovirt-engine/api/hosts/123/iscsidiscover
 
         With a request body like this:
 
@@ -43096,7 +43096,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        POST /ovirt-engine/api/hosts/123/syncallnetworks
+            POST /ovirt-engine/api/hosts/123/syncallnetworks
 
         With a request body like this:
 
@@ -43193,7 +43193,7 @@ class HostService(MeasurableService):
 
         .. code-block:: none
 
-        PUT /ovirt-engine/api/hosts/123
+            PUT /ovirt-engine/api/hosts/123
 
         With request body like this:
 
@@ -43885,7 +43885,7 @@ class HostNicService(MeasurableService):
 
         .. code-block:: none
 
-        GET /ovirt-engine/api/hosts/123/nics/456?all_content=true
+            GET /ovirt-engine/api/hosts/123/nics/456?all_content=true
 
         NOTE: These attributes are not included by default because retrieving them impacts performance. They are
         seldom used and require additional queries to the database. Use this parameter with caution and only when
